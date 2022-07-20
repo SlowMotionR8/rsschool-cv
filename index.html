@@ -6,10 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
+    <div class="avatar"> <img src="assets/avatar.jpg" height="350" width="270" alt="my photo"> </div>
 </head>
 <body>
-    <img src="assets/avatar.jpg" height="300" width="270" alt="my photo">
-    <p> Hello World</p>
+
+    <div class="header">
+        <h2> Viktoriya Tumanova </h2>
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#Code examples" class="nav-link">Codes</a></li>
+              <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+            </ul>
+          </nav>
+          <div class="content">
+          <section class="section" id= "Contacts">
+            <h3>Contacts</h3>
+            <ul>
+            <li><a class="links" href="https://vk.com/vtumanova2015"> VK</a></li>
+            <li>Discord: SlowMotion#7105</li>
+            <li>Email: vika.tumanova.2004@mail.ru</li>
+            </ul>
+    
+        </section>
+          <section class="section" id="Summary"></section>
+          <h3>About me</h3> 
+          <p>My name is Viktoriya. I live in Naberezhnye Chelny. At the moment I am studying in the 2nd year of a technical college with a degree in programmer.
+            I am also taking a Front-End course in Rolling Scopes School.</p>
+        </section>
+        <section class="section" id="Skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>Basic C++</li>
+                <li>Git</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section class="section" id="Education">
+            <h3>Education</h3>
+            <p>High School education</p>
+            <p>English: A1</p>
+        </section>
+
+        <section class="section" id="Code examples">
+            <h3>Code Examples</h3>
+            <pre>
+                <code>
+                    int main(){
+                        setlocale(LC_ALL, "Russian");
+                        srand (time(0));
+                    int n,b;	
+                    int mass[n][n];
+                    cout << "`n`: "; cin >> n;
+                   for ( int i = 0; i < n; ++i ){
+                   for ( int j = 0; j < n; ++j ){
+                   mass[i][j] = rand()%80;
+                   cout << setw(5) << mass[i][j];
+                   }
+                   cout << endl;
+                   for (i=0;i<n;i++){
+                       for(int j=0; j<n; j++){
+                           if (mass[j]>mass[j+1]){
+                               int b = mass[n];
+                               mass[j] = mass[j+1];
+                               mass[j+1]=b;
+                           }
+                       }
+                   }
+                   cout << "New Massiv: "
+                   for (int i = 0; i < n; i++){
+                       cout <<mass[j]<< " ";
+                   }
+                   }
+               } 
+                </code>
+            </pre>
+        </section>
+    </div>
+
+    </div>
+
+    </div>
+    
+        
+    </div>
+    
     
 </body>
 </html>
+<footer>
+<a href="https://github.com/SlowMotionR8?tab=repositories"><img src="/assets/github.png" height="50px"> </a>
+<a href="https://rs.school/"><img src="/assets/rolling_scopes.jpg" height="50px"</a> 
+
+</footer>
